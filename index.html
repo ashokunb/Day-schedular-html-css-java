@@ -8,11 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="
     anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <body>
-    <header class="text-center">
+    <header class="text-center d-flex flex-column">
         <h1 class="display-3">Work Day Schedular</h1>
         <p>A simple calender app to schedule your work day.</p>
         <!--place holder for the date that will be replaced by moment.js-->
@@ -21,17 +22,69 @@
 
     <main class="d-flex flex-column">
           <!--place holder for the date day will be replaced by moment.js-->
-        <h1>Placeholder for day</h1>
+        <h1 id="todaysday">Placeholder for day</h1>
+        <!--First hour of the day; text area and button to save our text.-->
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">9am</p>
+            <textarea id="text1" class="col-10" name="9am" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+            
+        </div>
 
-        <div class="row mb-1">
-            <p class="col-1 text-center">12am</p>
-            <textarea id="text1" class="col-10" name="12am" cols="20" rows="3" spellcheck="true"></textarea>
+        <div class="row mb-1 bigbox p-2  ">
+            <p class="col-1 text-center border-top border-2 border-dark">10am</p>
+            <textarea id="text2" class="col-10" name="10am" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">11am</p>
+            <textarea id="text3" class="col-10" name="11am" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">12pm</p>
+            <textarea id="text1" class="col-10" name="12pm" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">1pm</p>
+            <textarea id="text4" class="col-10" name="1pm" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">2pm</p>
+            <textarea id="text5" class="col-10" name="2pm" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">3pm</p>
+            <textarea id="text6" class="col-10" name="3pm" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">4pm</p>
+            <textarea id="text7" class="col-10" name="4pm" cols="20" rows="3"></textarea>
+            <button id="button1" class="col-1">save button</button>
+        </div>
+
+        <div class="row mb-1 bigbox p-2 ">
+            <p class="col-1 text-center border-top border-2 border-dark">5pm</p>
+            <textarea id="text8" class="col-10" name="5pm" cols="20" rows="3"></textarea>
             <button id="button1" class="col-1">save button</button>
         </div>
 
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./lib/moment/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="./Assets/script.js"></script>
+    
 </body>
 
 </html>

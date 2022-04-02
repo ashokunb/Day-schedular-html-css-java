@@ -1,0 +1,15 @@
+:root {
+    margin: 3%;
+    padding: 1%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+textarea {
+    background-color: rgb(223, 223, 223);
+}
+
+button {
+    border-top-right-radius: 15px;
+    background-color: rgba(37, 137, 209, 0.394);
+}
