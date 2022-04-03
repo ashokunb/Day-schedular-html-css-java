@@ -26,23 +26,6 @@ function checkTime(){
 
 checkTime();
 
-function saveButton() {
-    var num = [1,2,3,4,5,6,7,8,9]
-    for(i=0, i <= num.length, i++) {
-        var buttonUpdater = ('"#button"' + '"num"')
-        var textUpdater = ('"#text"' + '"num"')
-        var containerUpdater = ('"container"' + '"num"')
-        $(buttonUpdater).click(function(event){
-            var textArea = $(textUpdater);
-            console.log(textUpdater)
-            event.preventDefault()
-            localStorage.setItem(containerUpdater,textArea.val());
-        });
-    };
-    
-};
-saveButton();
-
 
 //save button functions makes sure everything is saved to the local storage
 function saveButton() {
