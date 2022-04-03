@@ -14,6 +14,7 @@ function makeButtons() {
     };
 
 };
+makeButtons();
 
 $('text1').val(localStorage.getItem('content1'));
 $('text2').val(localStorage.getItem('content2'));
