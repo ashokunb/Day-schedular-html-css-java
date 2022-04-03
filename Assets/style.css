@@ -15,6 +15,11 @@ button {
     font-size: large;
     font-weight: bold;
 }
+
+button:hover, #button10:hover {
+    color: red;
+    opacity: 5;
+}
 #button10 {
     padding: 10px;
     margin-top: 10px;
@@ -23,4 +28,14 @@ button {
     justify-content: center;
     background-color: yellow;
     font-size: medium;
+}
+
+.past {
+    background-color: rgb(223, 223, 223);
+}
+.present {
+    background-color: rgb(255, 101, 101);;
+}
+.future {
+    background-color: rgb(78, 207, 78);
 }
